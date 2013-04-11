@@ -1,0 +1,89 @@
+body {
+	font-family: tahoma;
+	font-size: 13px;
+}
+
+td {
+	/*padding-left: 6px;*/
+	/*padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;*/
+	border-bottom: 1px solid #cccccc;
+	white-space: nowrap;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: #cc6600;
+	cursor: pointer;
+}
+
+.left-noselect {
+	background-image: url('left.gif');
+	background-repeat: no-repeat;
+	/*padding: 1px;*/
+}
+
+.center-noselect {
+	background-image: url('mid.gif');
+}
+
+.right-noselect {
+	background-image: url('right.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+	/*padding-left: 3px;*/
+}
+
+.left-select {
+	background-image: url('left-selected.gif');
+	background-repeat: no-repeat;
+}
+
+.center-select {
+	background-image: url('mid-selected.gif');
+	font-weight: bold;
+}
+
+.right-select {
+	background-image: url('right-selected.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+#line-offset {
+	padding: 0px;
+}
+
+#offset {
+	margin-left: 5px;
+}
+
+.no-bottom {
+	border-bottom: none;
+}
+
+.in-padding {
+	padding-left: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 5px;
+}
+
+.separation {
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#last {
+	width: 100%;
+}
+

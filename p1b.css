@@ -1,0 +1,38 @@
+table {
+	border: 10px solid #d0d0ff;
+	font-family: Tahoma;
+	font-size: 13px;
+	padding: 20px;
+	margin: 20px;
+}
+
+.centered {
+	text-align: center;
+}
+
+.headerRow {
+	font-weight: bold;
+}
+
+.totalRow td {
+	font-weight: bold;
+	padding-top: 5px;
+	padding-right: 9px;
+}
+
+.cellPadding td {
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+	padding-right: 9px;
+}
+
+.bottomSpace td {
+	border-bottom: 2px solid white;
+}
+
+.bottomSolid td {
+	border-bottom: 2px solid black;
+	padding-bottom: 2px;
+}
+
