@@ -4,10 +4,6 @@ body {
 }
 
 td {
-	/*padding-left: 6px;*/
-	/*padding-top: 3px;
-	padding-bottom: 3px;
-	padding-right: 5px;*/
 	border-bottom: 1px solid #cccccc;
 	white-space: nowrap;
 }
@@ -40,7 +36,6 @@ a:hover {
 	background-image: url('right.gif');
 	background-repeat: no-repeat;
 	background-position: right top;
-	/*padding-left: 3px;*/
 }
 
 .left-select {
