@@ -1,0 +1,43 @@
+table {
+	font-family: Tahoma;
+	font-size: 13px;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+
+.centered {
+	text-align: center;
+}
+
+.bottomSpace td {
+	border-bottom: 1px solid white;
+}
+
+.cellPadding td{
+	
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.hidden {
+	display: none;
+}
+
+.headerRow {
+	background-color: #687291;
+	color: white;
+	font-weight: bold;
+
+}
+
+.oddRow {
+	background-color:  #dfe1e7;
+	
+}
+
+.evenRow {
+	background-color: #eeeff2;
+}
